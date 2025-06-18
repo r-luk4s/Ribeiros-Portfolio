@@ -1,1 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Projects</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <header>
+    <h1>Projects</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="projects.html" aria-current="page">Projects</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="project-list">
+      <div class="project-card" onclick="openPopup('project1')">
+        <img src="img/MPBflix.png" alt="MPBflix" />
+        <h3>MPBflix</h3>
+        <button type="button" onclick="openPopup('project1')">Open</button>
+      </div>
+      <div class="project-card" onclick="openPopup('project2')">
+        <img src="img/TimeToRun.png" alt="Time To Run" />
+        <h3>Time To Run</h3>
+        <button type="button" onclick="openPopup('project2')">Open</button>
+      </div>
+      <div class="project-card" onclick="openPopup('project3')">
+        <img src="img/InteractiveArt.png" alt="InteractiveArt" />
+        <h3>Interactive Art</h3>
+        <button type="button" onclick="openPopup('project3')">Open</button>
+      </div>
+      <div class="project-card" onclick="openPopup('project4')">
+        <img src="img/AbstractArt.png" alt="AbstractArt" />
+        <h3>Abstract Art</h3>
+        <button type="button" onclick="openPopup('project4')">Open</button>
+      </div>
+      <div class="project-card" onclick="openPopup('project5')">
+        <img src="img/BlackPic.jpg" alt="Black" />
+        <h3>Under Development</h3>
+        <button type="button" onclick="openPopup('project5')">Open</button>
+      </div>
+      <div class="project-card" onclick="openPopup('project6')">
+        <img src="img/BlackPic.jpg" alt="Black" />
+        <h3>Under Development</h3>
+        <button type="button" onclick="openPopup('project6')">Open</button>
+      </div>
+    </section>
+  </main>
+
+  <div class="popup" id="project1" role="dialog" aria-modal="true" aria-labelledby="proj1-title" tabindex="-1">
+    <h2 id="proj1-title">MPBflix</h2>
+    <img src="img/MPBflix.png" alt="MPBflix" />
+    <p>Welcome to our space dedicated to Brazilian Popular Music. Here you'll find a curated selection of songs that transcend generations, telling stories, evoking memories, and celebrating the richness of Brazilian culture. Listen, explore, and fall in love with the sounds that capture the soul of Brazil.</p>
+    <div class="popup-buttons">
+      <a href="https://r-luk4s.github.io/MPBflix-2.0/" target="_blank" rel="noopener noreferrer">View Live</a>
+      <a href="https://github.com/r-luk4s/MPBflix-2.0" target="_blank" rel="noopener noreferrer">View Code</a>
+    </div>
+    <button type="button" onclick="closePopup('project1')">Close</button>
+  </div>
+
+  <div class="popup" id="project2" role="dialog" aria-modal="true" aria-labelledby="proj2-title" tabindex="-1">
+    <h2 id="img/TimeToRun">Time To Run</h2>
+    <img src="img/TimeToRun.png" alt="TimeToRun" />
+    <p>A fast-paced two-player racing game where you compete to reach the finish line first across multiple rounds. Control your car using the keyboard and race on a scrolling road background. The game features simple controls, point scoring based on distance, and a dynamic soundtrack to keep the atmosphere exciting. Perfect for quick fun and friendly competition!
+
+</p>
+    <div class="popup-buttons">
+      <a href="https://editor.p5js.org/Rib3ir0/full/bdR_mb3RX" target="_blank" rel="noopener noreferrer">View Live</a>
+      <a href="https://editor.p5js.org/Rib3ir0/sketches/bdR_mb3RX" target="_blank" rel="noopener noreferrer">View Code</a>
+    </div>
+    <button type="button" onclick="closePopup('project2')">Close</button>
+  </div>
+
+  <div class="popup" id="project3" role="dialog" aria-modal="true" aria-labelledby="proj3-title" tabindex="-1">
+    <h2 id="proj3-title">Interactive Art</h2>
+    <img src="img/InteractiveArt.png" alt="InteractiveArt" />
+    <p>An interactive digital artwork featuring a dynamic sphere that changes its appearance based on mouse clicks. Each click transforms the sphere, offering a unique visual experience every time. Explore creativity and interaction through this evolving 3D-inspired piece.</p>
+    <div class="popup-buttons">
+      <a href="https://editor.p5js.org/Rib3ir0/full/0ZVR39u1i" target="_blank" rel="noopener noreferrer">View Live</a>
+      <a href="https://editor.p5js.org/Rib3ir0/sketches/0ZVR39u1i" target="_blank" rel="noopener noreferrer">View Code</a>
+    </div>
+    <button type="button" onclick="closePopup('project3')">Close</button>
+  </div>
+
+  <div class="popup" id="project4" role="dialog" aria-modal="true" aria-labelledby="proj4-title" tabindex="-1">
+    <h2 id="proj4-title">Abstract Art</h2>
+    <img src="img/AbstractArt.png" alt="AbstractArt" />
+    <p>An enigmatic abstract artwork bathed in deep shades of blue, evoking the serene yet mysterious atmosphere of a dense forest at twilight. The swirling shapes and layered textures suggest hidden paths, whispering leaves, and the quiet magic of natur's depths — inviting viewers to lose themselves in its tranquil mystery.</p>
+    <div class="popup-buttons">
+      <a href="https://editor.p5js.org/Rib3ir0/full/L_N6I8du3" target="_blank" rel="noopener noreferrer">View Live</a>
+      <a href="https://editor.p5js.org/Rib3ir0/sketches/L_N6I8du3" target="_blank" rel="noopener noreferrer">View Code</a>
+    </div>
+    <button type="button" onclick="closePopup('project4')">Close</button>
+  </div>
+
+  <div class="popup" id="project5" role="dialog" aria-modal="true" aria-labelledby="proj5-title" tabindex="-1">
+    <h2 id="proj5-title">Under Development</h2>
+    <img src="img/BlackPic.jpg" alt="Black" />
+    <p>Maybe a website? A game? A platform?</p>
+    <div class="popup-buttons">
+      <a href="#" target="_blank" rel="noopener noreferrer">View Live</a>
+      <a href="" target="_blank" rel="noopener noreferrer">View Code</a>
+    </div>
+    <button type="button" onclick="closePopup('project5')">Close</button>
+  </div>
+
+  <div class="popup" id="project6" role="dialog" aria-modal="true" aria-labelledby="proj6-title" tabindex="-1">
+    <h2 id="proj6-title">Under Development</h2>
+    <img src="img/BlackPic.jpg" alt="Black" />
+    <p>Maybe a website? A game? A platform?</p>
+    <div class="popup-buttons">
+      <a href="#" target="_blank" rel="noopener noreferrer">View Live</a>
+      <a href="#" target="_blank" rel="noopener noreferrer">View Code</a>
+    </div>
+    <button type="button" onclick="closePopup('project6')">Close</button>
+  </div>
+
+  <script>
+    function openPopup(id) {
+      const popup = document.getElementById(id);
+      popup.classList.add('active');
+      popup.focus();
+    }
+
+    function closePopup(id) {
+      const popup = document.getElementById(id);
+      popup.classList.remove('active');
+    }
+  </script>
+
+  <footer>
+    <p>© 2025 Lucas Ribeiro. All rights reserved.</p>
+    <div class="social-footer">
+      <a href="https://github.com/r-luk4s" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-github"></i> GitHub
+      </a>
+    </div>
+  </footer>
+</body>
+</html>
 
