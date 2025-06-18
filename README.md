@@ -14,4 +14,4 @@ Welcome to my personal portfolio repository. This project was created to showcas
 - Landing page with a personal introduction.
 - Projects section with descriptions and links.
 - Contact page with social media and email links.
-- Fully responsive design for desktop, tablet, and mobile.
+- Fully responsive design for desktop.
